@@ -1,0 +1,85 @@
+header, footer, section, nav, article {  
+    display: block;  
+}
+
+/* TODO: Add property:value pairs to set the width
+of the page, the font type, and the font size */
+body {
+	margin: 0 auto;  
+  width: 940px;
+}
+
+/* TODO: Add property:value pairs to set the color
+of the h1 element and make its text centered. Look at the index.html to see what the h1 element creates on the page*/
+h1 {
+  color:rgb(255, 136, 0);
+  text-align: center;
+
+}
+
+/* TODO: Add property:value pairs to set the color
+of the h3 element and make its text centered. Look at the index.html to see what the h3 element creates on the page*/
+//i like black
+h3 {
+  text-align: center;
+}
+/* TODO: Add property:value pairs to set the width and height of the header element. Give it a background color. add a border, and center its text. Look at the index.html to see what the header element creates on the page*/
+header {
+  text-align: center;
+	margin: 5px auto;
+  font-family: 'Abril Fatface', cursive;
+}
+
+/* TODO: Add property:value pairs to set the width and height of the footer element. Give it a background color. add a border, and center its text.
+Look at the index.html to see what the footer element creates on the page*/
+footer {
+	margin: 5px auto;
+  text-align:center;
+  border: 2px solid rgb(240, 161, 115);
+
+}
+
+/* TODO: Add property:value pairs to set the width and height of the section element. Give it a background color. You may need to set it's top margin to create some space between the beginning of the main section and the end of the navigation bar. Look at the index.html to see what the section element creates on the page*/
+section {
+background-color: rgba(128, 128, 128, 0);
+margin: 5px auto
+}
+
+
+/* This code styles your navigation bar. It works as is but feel free to change anything you'd like. Multiple tag selectors mean tags within tags.   */
+nav {
+	width: 940px;
+	height: 50px;
+	float: left;
+	font-family: 'Noto Sans JP', sans-serif;
+	border: 2px solid rgb(240, 161, 115);
+	background-color: dimgrey(228, 222, 222);
+}
+
+nav ul {
+	margin: 0px auto;
+	padding: 15px;
+	list-style-type: none;
+}
+nav li {
+	display: inline;
+
+}
+
+nav li a {
+	float: left;
+	text-align: center;
+	border-right: 2px solid wheat;
+  width: 281px;  
+  font-size: 14px; 
+	padding: 0px 10px;
+	color: black;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	color: rgb(143, 58, 58);
+}
+
+
+
